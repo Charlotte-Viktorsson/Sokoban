@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlottes Sokoban Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sokoban game</h1>
+        <h2>Instructions</h2>
+        <div id="instructions">
+            <table>
+                <tr>
+                    <td><img src="/images/worker.png" alt="player"></td>
+                    <td>The player to move with the arrowkeys.</td>   
+                </tr>
+                <tr>
+                    <td><img src="/images/box.png" alt="box"> </td>
+                    <td>Boxes to move by the player. Boxes can only be moved forward.</td>     
+                </tr>
+                <tr>
+                    <td><img src="/images/Target2.png" alt="goal"></td>
+                    <td> Goal, where to move the boxes.</td>
+                </tr>
+            </table>
+        </div>
+        <button class="btn" onclick="resetGame()">Restart game</button>
+        <!-- <button class="btn" onclick="finishGame()">Stop game</button> -->
+    </header>
+    <main>
+        <div id="gamecontainer"> 
+        </div>
+        <div id="winningBox">
+            <p id="winText"></p>
+        </div>
+    </main>
+    <footer>
+        <div id="playStatus">
+           <p>Steps : </p> <p id="nrOfSteps"></p>
+           <p>Time (seconds) : </p> <p id="gameTime"></p>
+        </div>
+    </footer>
+    <script src=SokobanBase.js></script>
+    <script src=game.js></script>
+</body>
+</html>
