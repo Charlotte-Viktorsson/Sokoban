@@ -63,31 +63,31 @@ footer p {
 }
 
 .Goal {
-    background-image: url("/images/Target2.png");
+    background-image: url("../images/Target2.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .Block {
-    background-image: url("/images/box.png");
+    background-image: url("../images/box.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .Player {
-    background-image: url("/images/worker.png");
+    background-image: url("../images/worker.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .Block.Goal {
-    background-image: url("/images/box2.png");
+    background-image: url("../images/box2.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .HappyPlayer {
-    background-image: url("/images/worker2.png");
+    background-image: url("../images/worker2.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
